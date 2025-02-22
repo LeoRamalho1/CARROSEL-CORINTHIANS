@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8"> <!-- Definindo o conjunto de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Garantindo que o layout seja responsivo -->
+    <link rel="stylesheet" href="style.css"> <!-- Vinculando o arquivo CSS -->
+    <title>DevClub - Portfólio</title> <!-- Definindo o título da página -->
+</head>
+
+<body>
+    <main>
+        <!-- Imagem de banner do portfólio -->
+        <img src="imagens/VAI CORINTHIANS.png" alt="banner-portfolio">
+
+        <!-- Primeira container com carrossel -->
+        <div class="container" style="
+            --width: 100px; /* Definindo a largura do item */
+            --height: 50px; /* Definindo a altura do item */
+            --quantity: 10; /* Definindo a quantidade de itens no carrossel */
+        ">
+            <div class="carrosel">
+                <!-- Itens do carrossel com imagens (com delay para animação) -->
+                <div class="item" style="--delay: 1s;"><img src="imagens/item1-1.png" alt=""></div>
+                <div class="item" style="--delay: 2s;"><img src="imagens/item1-2.png" alt=""></div>
+                <div class="item" style="--delay: 3s;"><img src="imagens/item1-3.png" alt=""></div>
+                <div class="item" style="--delay: 4s;"><img src="imagens/item1-4.png" alt=""></div>
+                <div class="item" style="--delay: 5s;"><img src="imagens/item1-5.png" alt=""></div>
+                <div class="item" style="--delay: 6s;"><img src="imagens/item1-6.png" alt=""></div>
+                <div class="item" style="--delay: 7s;"><img src="imagens/item1-7.png" alt=""></div>
+                <div class="item" style="--delay: 8s;"><img src="imagens/item1-8.png" alt=""></div>
+                <div class="item" style="--delay: 9s;"><img src="imagens/item1-9.png" alt=""></div>
+                <div class="item" style="--delay: 10s;"><img src="imagens/item1-10.png" alt=""></div>
+            </div>
+        </div>
+
+        <!-- Segunda container com carrossel reverso -->
+        <div class="container reverse" style="
+            --width: 200px; /* Largura dos itens do carrossel */
+            --height: 200px; /* Altura dos itens do carrossel */
+            --quantity: 9; /* Quantidade de itens no carrossel reverso */
+        ">
+            <div class="carrosel">
+                <!-- Itens do carrossel com imagens (com delay para animação) -->
+                <div class="item" style="--delay: 1s;"><img src="imagens/corinthians-1.jpeg" alt=""></div>
+                <div class="item" style="--delay: 2s;"><img src="imagens/corinthians-2.webp" alt=""></div>
+                <div class="item" style="--delay: 3s;"><img src="imagens/corinthians-3.jpg" alt=""></div>
+                <div class="item" style="--delay: 4s;"><img src="imagens/corinthians-4.jpg" alt=""></div>
+                <div class="item" style="--delay: 5s;"><img src="imagens/corinthians-5.jpg" alt=""></div>
+                <div class="item" style="--delay: 6s;"><img src="imagens/corinthians-6.jpg" alt=""></div>
+                <div class="item" style="--delay: 7s;"><img src="imagens/corinthians-7.jpg" alt=""></div>
+                <div class="item" style="--delay: 8s;"><img src="imagens/corinthians-8.jpeg" alt=""></div>
+                <div class="item" style="--delay: 9s;"><img src="imagens/corinthians-9.jpg" alt=""></div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
